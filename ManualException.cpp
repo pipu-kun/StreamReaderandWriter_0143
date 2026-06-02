@@ -9,5 +9,7 @@ int main(){
         cout << "ga akan tampil jika throw diaktifkan" << endl;
     }catch(int a){
         cout << "error tipe data int: " << a << endl;
+    }catch(...){
+        cout << "default catch, error tipe data apa saja" << endl; // karena throw pake double, maka catch yang dipanggil adalah catch default
     }
 }
