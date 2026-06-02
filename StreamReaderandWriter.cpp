@@ -4,4 +4,7 @@ using namespace std;
 
 int main(){
     string baris;
+
+    // masuk mode menulis
+    ofstream outfile;
 }
