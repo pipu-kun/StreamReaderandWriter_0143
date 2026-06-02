@@ -14,6 +14,10 @@ int main(){
     while(true){
         cout << "-> ";
         getline(cin, baris);
+        // if user input is 'x', break the loop
+        if(baris == "x"){
+            break;
+        }
         
     }
 }
