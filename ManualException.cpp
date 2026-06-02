@@ -2,4 +2,10 @@
 #include <exception> // kalo manual gausah pake ini
 using namespace std;
 
-int main(){}
+int main(){
+    try{
+        cout << "hidup jokowi" <<endl;
+        //throw 0.5; buat ngelempar error, bisa pake tipe data apa aja
+        cout << "ga akan tampil jika throw diaktifkan" << endl;
+    }
+}
