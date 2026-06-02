@@ -8,4 +8,5 @@ int main(){
     // masuk mode menulis
     ofstream outfile;
     outfile.open("contoh.txt");
+    cout << "writing... ketik \'x\' untuk keluar"<< endl;
 }
