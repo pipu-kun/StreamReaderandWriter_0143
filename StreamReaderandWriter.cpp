@@ -9,4 +9,11 @@ int main(){
     ofstream outfile;
     outfile.open("contoh.txt");
     cout << "writing... ketik \'x\' untuk keluar"<< endl;
+
+    // unlimited loop for writing
+    while(true){
+        cout << "-> ";
+        getline(cin, baris);
+        
+    }
 }
