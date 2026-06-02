@@ -22,4 +22,6 @@ int main(){
         outfile << baris << endl;
         
     }
+    // close the file after writing
+    outfile.close();
 }
