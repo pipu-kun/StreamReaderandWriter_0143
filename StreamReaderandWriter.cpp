@@ -7,4 +7,5 @@ int main(){
 
     // masuk mode menulis
     ofstream outfile;
+    outfile.open("contoh.txt");
 }
