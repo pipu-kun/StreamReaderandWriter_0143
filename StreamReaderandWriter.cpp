@@ -18,6 +18,8 @@ int main(){
         if(baris == "x"){
             break;
         }
+        // write the line to the file
+        outfile << baris << endl;
         
     }
 }
