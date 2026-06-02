@@ -2,3 +2,4 @@
 #include <exception> // kalo manual gausah pake ini
 using namespace std;
 
+int main(){}
