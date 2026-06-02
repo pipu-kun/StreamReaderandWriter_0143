@@ -7,5 +7,7 @@ int main(){
         cout << "hidup jokowi" <<endl;
         //throw 0.5; buat ngelempar error, bisa pake tipe data apa aja
         cout << "ga akan tampil jika throw diaktifkan" << endl;
+    }catch(int a){
+        cout << "error tipe data int: " << a << endl;
     }
 }
